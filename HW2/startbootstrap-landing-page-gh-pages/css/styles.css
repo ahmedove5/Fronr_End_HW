@@ -34,6 +34,14 @@
 
 
 
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;}
+
+
+
+
 
 
 
@@ -174,6 +182,10 @@
 p {
   border: 2px solid ;
   border-radius: 5px;
+}
+
+.img{
+  border-radius: 1px;
 }
 
 
