@@ -15,18 +15,15 @@ function throwdice(){
     const img =document.getElementById("btn")
     let rand1 = Math.floor(Math.random()*6)+1;
     let rand2 = Math.floor(Math.random()*6)+1;
-    let rand3 = Math.floor(Math.random()*6)+1;
-    let rand4 = Math.floor(Math.random()*6)+1;
+   
 
     document.getElementById("im").src ="img/"+rand1+".png"
-    document.getElementById("im").src ="img/"+rand2+".png"
-    document.getElementById("im").src ="img/"+rand3+".png"
-    document.getElementById("im").src ="img/"+rand4+".png"
-
-    document.getElementById("img").src ="img/"+rand4+".png"
-    document.getElementById("img").src ="img/"+rand3+".png"
     document.getElementById("img").src ="img/"+rand2+".png"
-    document.getElementById("img").src ="img/"+rand1+".png"
+  
+
+    // define function throwdice
+    // generate number from 1 to 6 for two daices
+    //get image by id and change name of images
 
 
 
